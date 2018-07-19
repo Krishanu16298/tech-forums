@@ -1,0 +1,1 @@
+$('code').addClass('prettyprint');

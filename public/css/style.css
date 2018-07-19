@@ -1,0 +1,107 @@
+body{
+    background:#eee;
+    margin:0;
+    padding:0;
+
+}
+h1,h2{
+    font-family: Poppins;
+    font-weight: bold;
+}
+p{
+    font-family: Ubuntu;
+}
+.navbar-brand{
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: Ubuntu;
+}
+#showcase{
+    text-align: center;
+    color:#fff;
+}
+.coverer{
+    margin:auto;
+    background:#0008;
+    padding:212px;
+}
+.coverer input{
+    width:50%;
+    padding:5px;
+}
+.bn{
+    color:#fff;
+    border-radius:0;
+    text-align: center;
+    background: rgb(0,80,150);
+    border:0;
+    padding:7px;
+    transition:all 0.1s ease-in-out;
+}
+.bn:hover{
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.8);
+    text-decoration:none;
+    color:#fff;
+}
+.bn:active{
+    background: rgb(0,80,150);
+}
+.bn-success{
+    background:#083;
+}
+.bn-danger{
+    background:#d22;
+}
+.bn-light{
+    background:#ddd;
+    color:#111;
+}
+.bn-light:hover{
+    color:#222;
+    background: #bbb;
+}
+.bn-block{
+    width:100%;
+}
+.news-feed{
+    font-size: 12px;
+    background:rgb(0,80,150);
+    padding:10px;
+}
+.news-feed a{
+    color:#fff;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+}
+.news-feed a:hover{
+    color:#0ff;
+}
+.addcontainer{
+    width:50%;
+    margin:auto;
+}
+.foothead p{
+    margin:0;
+}
+.foothead{
+    margin:0;
+    padding:30px;
+    width:100%;
+    background:rgb(0,80,150);
+    color:#fff;
+}
+.footd{
+    margin:0;
+    padding:10px;
+    width:100%;
+    background:rgb(0,70,130);
+    color:#fff;
+}
+
+.profile{
+    width:200px;
+    border-radius: 100px;
+}
+#editor{
+    height:200px;
+}
