@@ -9,7 +9,7 @@
         public function index(){
             if($_SERVER['REQUEST_METHOD'] == 'POST'){
                 if($_POST['body'] != ''){
-                    if($this->comModel->addComment($_POST['id'],$_POST['body'],$_POST['name'])){
+                    if($this->comModel->addComment($_POST['id'],htmlentities($_POST['body']),$_POST['name'])){
                         redirect('posts');
                     }else{
                         flash('post_msg','Something Went Wrong!','alert alert-danger');

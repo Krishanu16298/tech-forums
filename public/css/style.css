@@ -105,3 +105,10 @@ p{
 #editor{
     height:200px;
 }
+p code{
+    display:block;
+    font-family: 'Courier New', Courier, monospace;
+    background:#ddd;
+    color:#222;
+    padding:30px;
+}
